@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>home</title>
+</head>
+
+
+<body>
+    <div class="header">
+        <h3 class="person"></h3>
+        <div class="profile">
+            <img class="image" src="./assets/bilal (2).jpg" height="60vh" width="70vw">
+            <p id="Clickprofile">Profile</p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <div>
+            <p id="cancel" style="font-size: 20px; cursor: pointer; padding: 5px; margin-left: 70%;"> X </p>
+            <img class="image" src="./assets/bilal (2).jpg" height="60vh" width="70vw">
+            <p id="ourprofile">Our profile</p>
+            <p id="signup">Sign-up with an other account?</p>
+            <p id="edit">Edit our profile</p>
+            <p id="mypost">My posts</p>
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+    <!-- _________________________________post section__________________ -->
+    <div class="container">
+        <h4 id="postHeading">Create our post</h4>
+        <div class="inputfields">
+            <input type="text" id="inputText" placeholder="write your post text">
+            <input type="file" id="fil" style=" display: none;">
+        </div>
+        <div class="iconfields">
+            <i class="fa-solid fa-photo-film icons" id="media"></i>
+            <i class="fa-solid fa-square-poll-vertical  icons" ></i>
+            <i class="fa-brands fa-slack  icons" ></i>
+
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+
+    <div class="postsection">
+
+    </div>
+   
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
